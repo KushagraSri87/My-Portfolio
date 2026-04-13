@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, GitlabIcon as Github, LinkedinIcon as Linkedin } from "lucide-react";
 
 const ContactSection = () => (
   <section id="contact" className="py-24 px-4">
