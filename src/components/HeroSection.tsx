@@ -8,13 +8,13 @@ const HeroSection = () => (
       transition={{ duration: 0.8 }}
     >
       <h1 className="font-heading text-5xl md:text-7xl font-extrabold tracking-[0.2em] text-foreground mb-6">
-        YOUR NAME
+        KUSHAGRA
       </h1>
       <p className="text-primary text-lg md:text-xl font-medium mb-4 glow-primary">
-        Your tagline goes here
+        Software Developer · Gen AI · Full Stack
       </p>
       <p className="text-muted-foreground text-base max-w-xl mx-auto mb-10">
-        Fresher | Open to opportunities | Your short intro here.
+        Fresher | Open to opportunities | Passionate about Generative AI, DSA, and Full Stack Development.
       </p>
       <div className="flex gap-4 justify-center">
         <a
