@@ -10,15 +10,15 @@ const ContactSection = () => (
         <div className="space-y-6">
           <div className="flex items-center justify-center gap-3">
             <Mail className="text-primary" size={20} />
-            <a href="mailto:your@email.com" className="text-foreground hover:text-primary transition-colors">
-              your@email.com
+            <a href="mailto:kushagra@email.com" className="text-foreground hover:text-primary transition-colors">
+              kushagra@email.com
             </a>
           </div>
           <div className="flex justify-center gap-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2" aria-label="GitHub">
+            <a href="https://github.com/kushagra" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2" aria-label="GitHub">
               <ExternalLink size={18} /> GitHub
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2" aria-label="LinkedIn">
+            <a href="https://linkedin.com/in/kushagra" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2" aria-label="LinkedIn">
               <ExternalLink size={18} /> LinkedIn
             </a>
           </div>

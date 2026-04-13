@@ -11,28 +11,20 @@ interface Project {
 
 const projects: Project[] = [
   {
-    status: "In Development",
-    title: "Project One",
-    description: "Short description of your project.",
-    problem: "What problem does it solve?",
-    approach: "How did you approach it?",
-    technologies: ["React", "Node.js", "PostgreSQL", "Tailwind CSS"],
+    status: "Completed",
+    title: "IoT-Based Smart Building Energy Optimization",
+    description: "An IoT-based system designed to monitor and optimize energy consumption in buildings using real-time sensor data and automation.",
+    problem: "Buildings waste significant energy due to manual control of appliances and lack of real-time monitoring, leading to unnecessary power consumption.",
+    approach: "Used sensors (DHT11, LDR, PIR) to collect environmental data, processed by Arduino/NodeMCU to automatically control lights, fans, and AC based on real-time conditions like motion, temperature, and light intensity.",
+    technologies: ["Arduino", "NodeMCU (ESP8266)", "DHT11", "LDR", "PIR", "Arduino IDE", "Firebase"],
   },
   {
     status: "Completed",
-    title: "Project Two",
-    description: "Short description of your second project.",
-    problem: "What problem does it solve?",
-    approach: "How did you approach it?",
-    technologies: ["Python", "TensorFlow", "OpenAI Gym"],
-  },
-  {
-    status: "Completed",
-    title: "Project Three",
-    description: "Short description of your third project.",
-    problem: "What problem does it solve?",
-    approach: "How did you approach it?",
-    technologies: ["React", "Express.js", "PostgreSQL"],
+    title: "RFID-Based Event Management System",
+    description: "An event registration portal that allows users to register for events with automated confirmation via email and SMS notifications.",
+    problem: "Manual event registration is time-consuming, error-prone, and lacks instant confirmation for attendees.",
+    approach: "Built a web form that collects user details (name, email, phone, address), stores submissions in Google Sheets, and triggers automated confirmation emails and SMS notifications upon registration.",
+    technologies: ["Google Sheets", "Google Apps Script", "HTML", "JavaScript"],
   },
 ];
 

@@ -7,11 +7,11 @@ const skillGroups = [
   },
   {
     title: "Tools & Frameworks",
-    skills: ["Git & GitHub", "React", "Node.js", "Tailwind CSS"],
+    skills: ["Git & GitHub", "React", "Node.js", "Express.js"],
   },
   {
     title: "Concepts & Knowledge",
-    skills: ["Data Structures", "Algorithms", "System Design", "OOP"],
+    skills: ["Data Structures", "Algorithms"],
   },
 ];
 

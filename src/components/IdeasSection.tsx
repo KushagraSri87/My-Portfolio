@@ -11,20 +11,20 @@ const IdeasSection = () => (
         <div>
           <h3 className="font-heading text-sm font-semibold text-primary uppercase tracking-wider mb-4">Thoughts</h3>
           <ul className="space-y-3">
-            <li className="text-foreground text-sm italic border-l-2 border-primary pl-4">Your first thought or belief.</li>
-            <li className="text-foreground text-sm italic border-l-2 border-primary pl-4">Your second thought or belief.</li>
-            <li className="text-foreground text-sm italic border-l-2 border-primary pl-4">Your third thought or belief.</li>
+            <li className="text-foreground text-sm italic border-l-2 border-primary pl-4">AI will fundamentally change how we write and ship software.</li>
+            <li className="text-foreground text-sm italic border-l-2 border-primary pl-4">Strong DSA foundations make you a better problem solver in every domain.</li>
+            <li className="text-foreground text-sm italic border-l-2 border-primary pl-4">IoT and AI together can make buildings and cities truly intelligent.</li>
           </ul>
         </div>
         <div>
           <h3 className="font-heading text-sm font-semibold text-primary uppercase tracking-wider mb-4">Intellectual Interests</h3>
           <div className="flex flex-wrap gap-2 mb-4">
-            <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">Interest 1</span>
-            <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">Interest 2</span>
-            <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">Interest 3</span>
+            <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">Generative AI</span>
+            <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">IoT & Smart Systems</span>
+            <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">Competitive Programming</span>
           </div>
           <p className="text-muted-foreground text-sm">
-            A sentence about what you enjoy reading or exploring intellectually.
+            I enjoy exploring how AI models work under the hood, tinkering with embedded systems, and solving algorithmic challenges.
           </p>
         </div>
       </div>
