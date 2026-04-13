@@ -9,8 +9,9 @@ import ContactSection from "@/components/ContactSection";
 
 const Index = () => (
   <>
+    <ParticlesBackground />
     <Navbar />
-    <main className="pt-16">
+    <main className="relative z-10 pt-16">
       <HeroSection />
       <AboutSection />
       <ProjectsSection />
