@@ -15,11 +15,11 @@ const ContactSection = () => (
             </a>
           </div>
           <div className="flex justify-center gap-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="GitHub">
-              <Github size={24} />
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2" aria-label="GitHub">
+              <ExternalLink size={18} /> GitHub
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors" aria-label="LinkedIn">
-              <Linkedin size={24} />
+            <a href="#" className="text-muted-foreground hover:text-primary transition-colors flex items-center gap-2" aria-label="LinkedIn">
+              <ExternalLink size={18} /> LinkedIn
             </a>
           </div>
         </div>
