@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import ParticlesBackground from "@/components/ParticlesBackground";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ProjectsSection from "@/components/ProjectsSection";
