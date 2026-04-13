@@ -8,7 +8,7 @@ const HeroSection = () => (
       transition={{ duration: 0.8 }}
     >
       <h1 className="font-heading text-5xl md:text-7xl font-extrabold tracking-[0.2em] text-foreground mb-6">
-        KUSHAGRA
+        KUSHAGRA SRIVASTAVA
       </h1>
       <p className="text-primary text-lg md:text-xl font-medium mb-4 glow-primary">
         Software Developer · Gen AI · Full Stack

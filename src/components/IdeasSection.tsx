@@ -21,7 +21,7 @@ const IdeasSection = () => (
           <div className="flex flex-wrap gap-2 mb-4">
             <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">Generative AI</span>
             <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">IoT & Smart Systems</span>
-            <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">Competitive Programming</span>
+            <span className="text-xs px-3 py-1 border border-border rounded-full text-muted-foreground">Full Stack Development</span>
           </div>
           <p className="text-muted-foreground text-sm">
             I enjoy exploring how AI models work under the hood, tinkering with embedded systems, and solving algorithmic challenges.

@@ -18,7 +18,7 @@ const Index = () => (
       <ContactSection />
     </main>
     <footer className="border-t border-border py-8 text-center text-xs text-muted-foreground font-heading">
-      © 2026 Kushagra. All rights reserved.
+      © 2026 Kushagra Srivastava. All rights reserved.
     </footer>
   </>
 );
