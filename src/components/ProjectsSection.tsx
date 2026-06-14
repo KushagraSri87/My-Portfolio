@@ -26,6 +26,14 @@ const projects: Project[] = [
     approach: "Built a web form that collects user details (name, email, phone, address), stores submissions in Google Sheets, and triggers automated confirmation emails and SMS notifications upon registration.",
     technologies: ["Google Sheets", "Google Apps Script", "HTML", "JavaScript"],
   },
+  {
+    status: "Completed",
+    title: "Airbnb Clone",
+    description: "A full-stack Airbnb-inspired property listing platform built with Node.js, Express.js, MongoDB, and EJS for server-side rendered workflows.",
+    problem: "Many listing platforms need full backend support for user authentication, secure CRUD workflows, image uploads, and location-aware property search.",
+    approach: "Implemented authentication and authorization with Passport.js and Express Sessions; built property CRUD and image upload flows using Cloudinary; integrated MongoDB Atlas for database storage and Mapbox for location-based services; designed responsive server-rendered pages with EJS templates.",
+    technologies: ["Node.js", "Express.js", "MongoDB", "MongoDB Atlas", "EJS", "Passport.js", "Express Sessions", "Cloudinary", "Mapbox", "HTML", "CSS", "JavaScript"],
+  },
 ];
 
 const statusColor = (s: string) =>
