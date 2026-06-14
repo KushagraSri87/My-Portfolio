@@ -12,6 +12,14 @@ interface Project {
 const projects: Project[] = [
   {
     status: "Completed",
+    title: "Airbnb Clone",
+    description: "A full-stack Airbnb-inspired property listing platform built with Node.js, Express.js, MongoDB, and EJS for server-side rendered workflows.",
+    problem: "Many listing platforms need full backend support for user authentication, secure CRUD workflows, image uploads, and location-aware property search.",
+    approach: "Implemented authentication and authorization with Passport.js and Express Sessions; built property CRUD and image upload flows using Cloudinary; integrated MongoDB Atlas for database storage and Mapbox for location-based services; designed responsive server-rendered pages with EJS templates.",
+    technologies: ["Node.js", "Express.js", "MongoDB", "MongoDB Atlas", "EJS", "Passport.js", "Express Sessions", "Cloudinary", "Mapbox", "HTML", "CSS", "JavaScript"],
+  },
+  {
+    status: "Completed",
     title: "IoT-Based Smart Building Energy Optimization",
     description: "An IoT-based system designed to monitor and optimize energy consumption in buildings using real-time sensor data and automation.",
     problem: "Buildings waste significant energy due to manual control of appliances and lack of real-time monitoring, leading to unnecessary power consumption.",
@@ -25,14 +33,6 @@ const projects: Project[] = [
     problem: "Manual event registration is time-consuming, error-prone, and lacks instant confirmation for attendees.",
     approach: "Built a web form that collects user details (name, email, phone, address), stores submissions in Google Sheets, and triggers automated confirmation emails and SMS notifications upon registration.",
     technologies: ["Google Sheets", "Google Apps Script", "HTML", "JavaScript"],
-  },
-  {
-    status: "Completed",
-    title: "Airbnb Clone",
-    description: "A full-stack Airbnb-inspired property listing platform built with Node.js, Express.js, MongoDB, and EJS for server-side rendered workflows.",
-    problem: "Many listing platforms need full backend support for user authentication, secure CRUD workflows, image uploads, and location-aware property search.",
-    approach: "Implemented authentication and authorization with Passport.js and Express Sessions; built property CRUD and image upload flows using Cloudinary; integrated MongoDB Atlas for database storage and Mapbox for location-based services; designed responsive server-rendered pages with EJS templates.",
-    technologies: ["Node.js", "Express.js", "MongoDB", "MongoDB Atlas", "EJS", "Passport.js", "Express Sessions", "Cloudinary", "Mapbox", "HTML", "CSS", "JavaScript"],
   },
 ];
 
