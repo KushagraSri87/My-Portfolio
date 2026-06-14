@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 
 const navItems = ["Home", "About", "Projects", "Skills", "Ideas", "Contact"];
@@ -6,6 +6,28 @@ const navItems = ["Home", "About", "Projects", "Skills", "Ideas", "Contact"];
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = navItems.map((item) => ({
+        name: item,
+        element: document.getElementById(item.toLowerCase()),
+      }));
+
+      const current = sections.find((section) => {
+        if (!section.element) return false;
+        const rect = section.element.getBoundingClientRect();
+        return rect.top <= 100 && rect.bottom >= 100;
+      });
+
+      if (current) {
+        setActive(current.name);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const scrollTo = (id: string) => {
     setActive(id);
