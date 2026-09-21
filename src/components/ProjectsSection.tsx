@@ -48,7 +48,7 @@ const projects: Project[] = [
     technologies: ["Arduino", "NodeMCU (ESP8266)", "DHT11", "LDR", "PIR", "Arduino IDE", "Firebase"],
     githubUrl: "https://github.com/KushagraSri87/IOT-based-Smart-buildings",
   },
-    {
+  {
     status: "Completed",
     title: "RFID-Based Event Management System",
     description: "An event registration portal that allows users to register for events with automated confirmation via email and SMS notifications.",
@@ -102,7 +102,7 @@ const ProjectsSection = () => (
             {(p.githubUrl || p.liveUrl) && (
               <div className="flex flex-wrap items-center gap-5 mt-5">
                 {p.githubUrl && (
-                  
+                  <a
                     href={p.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -113,7 +113,7 @@ const ProjectsSection = () => (
                   </a>
                 )}
                 {p.liveUrl && (
-                  
+                  <a
                     href={p.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
