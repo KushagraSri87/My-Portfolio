@@ -7,7 +7,7 @@ This project showcases my skills, projects, and experience as a developer.
 
 ## 🚀 Live Demo
 
-👉 https://kushagraport.netlify.app/
+👉 kushagraportfolio87.netlify.app
 
 ---
 
