@@ -55,7 +55,7 @@ const projects: Project[] = [
     problem: "Manual event registration is time-consuming, error-prone, and lacks instant confirmation for attendees.",
     approach: "Built a web form that collects user details (name, email, phone, address), stores submissions in Google Sheets, and triggers automated confirmation emails and SMS notifications upon registration.",
     technologies: ["Google Sheets", "Google Apps Script", "HTML", "JavaScript"],
-    githubUrl: "", // paste the RFID project's GitHub link here
+    githubUrl: "https://github.com/KushagraSri87/RFID-REGISTRATION-PORTAL", // paste the RFID project's GitHub link here
   },
 ];
 
