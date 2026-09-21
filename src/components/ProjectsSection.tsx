@@ -37,7 +37,7 @@ const projects: Project[] = [
     approach: "Structured the app with MVC (controllers, models, routes) and full CRUD on listings; added Passport.js session authentication and Joi server-side validation; built a booking system with server-side overlap checking, a guest 'My Trips' view and an owner bookings dashboard; integrated Cloudinary/Multer for image uploads, OpenCage/Leaflet for maps and Razorpay for payments.",
     technologies: ["Node.js", "Express.js", "MongoDB", "MongoDB Atlas", "EJS", "Passport.js", "Express Sessions", "Cloudinary", "Multer", "HTML", "CSS", "JavaScript", "Leaflet", "OpenCage", "Razorpay"],
     githubUrl: "https://github.com/KushagraSri87/StayScape",
-    liveUrl: "", // add the StayScape live link here once it is deployed
+    liveUrl: "https://stayscape-a0fz.onrender.com", // add the StayScape live link here once it is deployed
   },
   {
     status: "Completed",
