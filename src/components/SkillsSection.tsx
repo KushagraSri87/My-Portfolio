@@ -2,17 +2,26 @@ import { motion } from "framer-motion";
 
 const skillGroups = [
   {
-    title: "Programming Languages",
-    skills: ["C++", "Python", "JavaScript", "SQL"],
+    title: "Languages & DSA",
+    skills: ["C++", "JavaScript (ES6+)", "TypeScript", "SQL", "Data Structures & Algorithms"],
   },
   {
-    title: "Tools & Frameworks",
-    skills: ["Git & GitHub", "React", "Node.js", "Express.js"],
+    title: "Backend & APIs",
+    skills: ["Node.js", "Express.js", "REST API Design", "JWT / Passport.js Auth", "MVC Architecture"],
   },
   {
-    title: "Concepts & Knowledge",
-    skills: ["Data Structures", "Algorithms"],
+    title: "Frontend",
+    skills: ["React", "HTML & CSS", "Tailwind CSS", "EJS"],
   },
+  {
+    title: "Databases & Services",
+    skills: ["MongoDB", "MongoDB Atlas", "MySQL", "Cloudinary / Multer", "Razorpay API"],
+  },
+  {
+    title: "DevOps & Cloud",
+    skills: ["Git & GitHub", "Linux (CLI)", "Vercel", "Render", "Netlify"],
+  },
+  
 ];
 
 const SkillsSection = () => (
@@ -25,7 +34,7 @@ const SkillsSection = () => (
       <div className="grid md:grid-cols-3 gap-8">
         {skillGroups.map((g, i) => (
           <motion.div
-            key={i}
+            key={g.title}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
